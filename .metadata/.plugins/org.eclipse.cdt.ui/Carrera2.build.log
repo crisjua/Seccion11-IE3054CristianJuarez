@@ -1,0 +1,18 @@
+19:16:49 **** Incremental Build of configuration Debug for project Carrera2 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_GPIO_EXTI_Callback':
+../Core/Src/main.c:256:20: error: 'botonj1_Pin' undeclared (first use in this function); did you mean 'botonj2_Pin'?
+  256 |     if(GPIO_Pin == botonj1_Pin) {
+      |                    ^~~~~~~~~~~
+      |                    botonj2_Pin
+../Core/Src/main.c:256:20: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:258:29: error: 'botonj1_GPIO_Port' undeclared (first use in this function); did you mean 'botonj2_GPIO_Port'?
+  258 |         if(HAL_GPIO_ReadPin(botonj1_GPIO_Port, botonj1_Pin) == GPIO_PIN_RESET) {
+      |                             ^~~~~~~~~~~~~~~~~
+      |                             botonj2_GPIO_Port
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+
+19:16:49 Build Failed. 3 errors, 0 warnings. (took 302ms)
+
