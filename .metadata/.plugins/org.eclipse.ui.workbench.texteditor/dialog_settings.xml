@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="java.lang.Class">
+		<item key="replaceBarOpen" value="false"/>
+		<list key="findhistory">
+			<item value="uint32"/>
+			<item value="htim2.Init.Prescaler"/>
+			<item value="htim2.Init"/>
+			<item value="htim2"/>
+			<item value="frecuencia"/>
+			<item value="mx_USART"/>
+			<item value="sConfigOc.Pulse"/>
+			<item value="sConfi"/>
+		</list>
+	</section>
+</section>
