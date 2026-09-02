@@ -1,14 +1,7 @@
-02:22:18 **** Incremental Build of configuration Debug for project LAB4ENCLASE ****
+00:58:00 **** Incremental Build of configuration Debug for project LAB5TMRYUART ****
 make -j16 all 
-arm-none-eabi-size  LAB4ENCLASE.elf 
+arm-none-eabi-size  LAB5TMRYUART.elf 
    text	   data	    bss	    dec	    hex	filename
-   8328	     12	   1572	   9912	   26b8	LAB4ENCLASE.elf
-Finished building: default.size.stdout
- 
-02:22:24 **** Incremental Build of configuration Debug for project LAB4ENCLASE ****
-make -j16 all 
-arm-none-eabi-size  LAB4ENCLASE.elf 
-   text	   data	    bss	    dec	    hex	filename
-   8328	     12	   1572	   9912	   26b8	LAB4ENCLASE.elf
+  19152	     92	   2196	  21440	   53c0	LAB5TMRYUART.elf
 Finished building: default.size.stdout
  
