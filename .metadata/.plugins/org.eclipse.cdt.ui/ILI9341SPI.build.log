@@ -1,0 +1,10 @@
+17:58:02 **** Incremental Build of configuration Debug for project ILI9341SPI ****
+make -j16 all 
+arm-none-eabi-size  ILI9341SPI.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 399660	   1412	  11220	 412292	  64a84	ILI9341SPI.elf
+Finished building: default.size.stdout
+ 
+
+17:58:02 Build Finished. 0 errors, 0 warnings. (took 309ms)
+
