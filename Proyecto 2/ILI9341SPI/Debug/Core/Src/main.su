@@ -1,0 +1,16 @@
+../Core/Src/main.c:177:5:puedeMover	24	static
+../Core/Src/main.c:188:5:dentroPantalla	16	static
+../Core/Src/main.c:235:8:transmit_uart	16	static
+../Core/Src/main.c:202:5:main	232	static,ignoring_inline_asm
+../Core/Src/main.c:525:6:SystemClock_Config	88	static
+../Core/Src/main.c:582:15:MX_SPI1_Init	8	static
+../Core/Src/main.c:610:13:MX_TIM1_Init	80	static
+../Core/Src/main.c:675:13:MX_USART1_UART_Init	8	static
+../Core/Src/main.c:708:13:MX_USART2_UART_Init	8	static
+../Core/Src/main.c:741:13:MX_GPIO_Init	48	static
+../Core/Src/main.c:794:6:dibujarVidas	24	static
+../Core/Src/main.c:800:6:playMelody	40	static
+../Core/Src/main.c:815:6:LCD_Bitmap_Scaled	40	static
+../Core/Src/main.c:828:6:HAL_UART_RxCpltCallback	88	static
+../Core/Src/main.c:870:13:fatfs_error_text	16	static
+../Core/Src/main.c:901:6:Error_Handler	4	static,ignoring_inline_asm
