@@ -8,21 +8,21 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="void playDAC(void)"/>
-			<item value="user code begin pv"/>
-			<item value="playDAC"/>
-			<item value="play"/>
-			<item value="while"/>
-			<item value="HAL_ADC_ConvCpltCallback"/>
-			<item value="HAL_UART_RxCpltCallback"/>
-			<item value="HAL_UART_Receive_IT"/>
-			<item value="HAL_TIM_PeriodElapsedCallback"/>
-			<item value="MX_ADC2_Init()"/>
+			<item value="int main"/>
+			<item value="LCD"/>
+			<item value="fondo"/>
+			<item value="LCD_Bitmap"/>
+			<item value="char"/>
+			<item value="uint16_t doo"/>
 			<item value="uint32"/>
-			<item value="htim2.Init.Prescaler"/>
-			<item value="htim2.Init"/>
-			<item value="htim2"/>
-			<item value="frecuencia"/>
+			<item value="uint32_ duration"/>
+			<item value="uint32_t dura"/>
+			<item value="HAL_DAC_STAR"/>
+			<item value="HAL_TIM_PER"/>
+			<item value="HAL_DAC"/>
+			<item value="MX_TIM6"/>
+			<item value="HAL_Init"/>
+			<item value="void playDAC(void)"/>
 		</list>
 		<list key="replacehistory">
 		</list>
