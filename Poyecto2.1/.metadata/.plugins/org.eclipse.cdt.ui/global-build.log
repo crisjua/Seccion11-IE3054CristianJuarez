@@ -1,0 +1,21 @@
+12:51:43 **** Incremental Build of configuration Debug for project Proyecto3 ****
+make -j16 all 
+arm-none-eabi-size  Proyecto3.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18736	     20	   3140	  21896	   5588	Proyecto3.elf
+Finished building: default.size.stdout
+ 
+12:51:45 **** Incremental Build of configuration Debug for project Proyecto3 ****
+make -j16 all 
+arm-none-eabi-size  Proyecto3.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18736	     20	   3140	  21896	   5588	Proyecto3.elf
+Finished building: default.size.stdout
+ 
+17:44:31 **** Incremental Build of configuration Debug for project Sensores2Proyecto3 ****
+make -j16 all 
+arm-none-eabi-size  Sensores2Proyecto3.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25000	     12	   3204	  28216	   6e38	Sensores2Proyecto3.elf
+Finished building: default.size.stdout
+ 
