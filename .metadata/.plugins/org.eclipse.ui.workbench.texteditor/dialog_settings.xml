@@ -8,21 +8,21 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="int main"/>
-			<item value="LCD"/>
-			<item value="fondo"/>
-			<item value="LCD_Bitmap"/>
-			<item value="char"/>
-			<item value="uint16_t doo"/>
-			<item value="uint32"/>
-			<item value="uint32_ duration"/>
-			<item value="uint32_t dura"/>
-			<item value="HAL_DAC_STAR"/>
-			<item value="HAL_TIM_PER"/>
-			<item value="HAL_DAC"/>
-			<item value="MX_TIM6"/>
-			<item value="HAL_Init"/>
-			<item value="void playDAC(void)"/>
+			<item value="user code begin 2"/>
+			<item value="wh"/>
+			<item value="User code begin 0"/>
+			<item value="User code begin 2"/>
+			<item value="define"/>
+			<item value="caso"/>
+			<item value="if (vel"/>
+			<item value="el enemigo recibe daño"/>
+			<item value="detecc"/>
+			<item value="Note_C5"/>
+			<item value="detecci"/>
+			<item value="pres"/>
+			<item value="if (in"/>
+			<item value="if (vi"/>
+			<item value="deteccion"/>
 		</list>
 		<list key="replacehistory">
 		</list>
