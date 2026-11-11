@@ -1,0 +1,56 @@
+/*
+ * ws2812.c
+ *
+ *  Created on: 10 nov 2026
+ *      Author: crist
+ */
+#include "ws2812.h"
+#include "main.h"
+
+extern TIM_HandleTypeDef htim1;
+
+#define MAX_LED 4
+
+uint8_t LED_Data[MAX_LED][3];
+uint16_t pwmData[100];
+
+void Set_LED(int num, int Red, int Green, int Blue)
+{
+    LED_Data[num][0] = Green;
+    LED_Data[num][1] = Red;
+    LED_Data[num][2] = Blue;
+}
+
+void WS2812_Send(void)
+{
+    uint32_t indx = 0;
+
+    for(int led = 0; led < MAX_LED; led++)
+    {
+        uint32_t color =
+            (LED_Data[led][0] << 16) |
+            (LED_Data[led][1] << 8)  |
+             LED_Data[led][2];
+
+        for(int bit = 23; bit >= 0; bit--)
+        {
+            if(color & (1 << bit))
+                pwmData[indx] = 66;
+            else
+                pwmData[indx] = 33;
+
+            indx++;
+        }
+    }
+
+    for(int i=0;i<50;i++)
+    {
+        pwmData[indx++] = 0;
+    }
+
+    HAL_TIM_PWM_Start_DMA(
+        &htim1,
+        TIM_CHANNEL_1,
+        (uint32_t *)pwmData,
+        indx);
+}
